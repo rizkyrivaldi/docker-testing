@@ -26,7 +26,7 @@ docker images
 ## Run the container based on image
 ```
 # Run in the background, detached
-docker run -p [forwarded port]:[container port] [image name]:[version]
+docker run -dp [forwarded port]:[container port] [image name]:[version]
 
 # Run in the terminal without detach
 docker run -p [forwarded port]:[container port] [image name]:[version]
